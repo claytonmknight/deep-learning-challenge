@@ -1,5 +1,7 @@
 # deep-learning-challenge
- deep-learning-challenge
+
+deep-learning-challenge
+
 # Alphabet Soup Charity Funding Predictor
 
 ## Overview of the Analysis
@@ -51,10 +53,15 @@ The original model was defined with two hidden layers containing 80 and 30 neuro
 - **Model Configuration:** Similar to Attempt 2, with two hidden layers containing 6 neurons each, ReLU activation function for the first hidden layer, and tanh activation function for the second hidden layer. However, the number of epochs was increased to 200.
 - **Result:** The accuracy slightly decreased compared to Attempt 2, achieving approximately 73.00%.
 
-## Summary
+## Summary of Model Optimization
 
-The deep learning model achieved a moderate accuracy of approximately 73.29% in predicting the success of funding applications for Alphabet Soup. While the model performance fell slightly below the target of 75%, it demonstrated reasonable predictive capability.
+After implementing changes based on the improvements observed in Attempt #1, the model's performance was re-evaluated. However, the optimization did not result in a significant improvement in accuracy. The revised model achieved the following performance metrics:
 
-While Attempt 3 showed a slight decrease in accuracy compared to Attempt 2, all attempts demonstrated improvements over the original model. Although the target accuracy of 75% was not achieved, the experiments helped identify configurations that led to better performance.
+- **Accuracy:** Approximately 72.38%
+- **Loss:** 0.5564
 
-To improve the classification problem and achieve the desired 75% accuracy, further experimentation with the model architecture, hyperparameters, and data preprocessing techniques may be necessary. Additionally, exploring more advanced neural network architectures or ensemble methods, such as bagging or boosting, could help capture complex patterns in the data and enhance predictive performance.
+Despite the adjustments made to the model architecture and hyperparameters based on the insights gained from Attempt #1, the target accuracy of 75% was not met. This outcome underscores the complexity of optimizing deep learning models and the need for iterative experimentation to identify the most effective configurations.
+
+The discrepancy in performance could be attributed to various factors, including model complexity, suboptimal hyperparameters, data quality issues, randomness in model training, and the size and composition of the training set.
+
+Moving forward, further experimentation and fine-tuning may be necessary to improve the model's predictive capability. This iterative process may involve adjusting model parameters, exploring different architectures, and thoroughly analyzing the dataset to address underlying challenges and enhance performance.
